@@ -1,39 +1,40 @@
-# Customer Churn Prediction
+# Customer Churn Analysis
 
 ## Project Overview
 
-Customer churn is one of the most important business problems in subscription-based industries such as telecommunications. Acquiring new customers is significantly more expensive than retaining existing ones.
+Customer churn refers to customers who discontinue using a company's services. Understanding why customers leave is critical because retaining existing customers is generally more cost-effective than acquiring new ones.
 
-This project builds an end-to-end machine learning pipeline to predict whether a customer is likely to churn based on demographic, contract, and service-related information.
+This project analyzes customer churn patterns using the IBM Telco Customer Churn dataset and provides actionable business recommendations to improve customer retention.
 
 ---
 
-## Business Objective
+## Objectives
 
-Predict customer churn and identify the factors that contribute most to customer attrition.
-
-The insights generated from this model can help businesses:
-
-* Improve customer retention
-* Reduce revenue loss
-* Design targeted retention campaigns
-* Understand churn drivers
+* Explore customer churn behavior
+* Identify factors associated with churn
+* Visualize churn patterns
+* Generate business insights
+* Recommend customer retention strategies
 
 ---
 
 ## Dataset
 
-Dataset: IBM Telco Customer Churn Dataset
+Dataset Used: IBM Telco Customer Churn Dataset
 
-Features include:
+The dataset contains customer information including:
 
-* Customer demographics
-* Contract type
-* Internet service
-* Payment method
-* Monthly charges
-* Total charges
-* Customer tenure
+* Gender
+* Senior Citizen Status
+* Partner Status
+* Dependents
+* Tenure
+* Internet Service
+* Contract Type
+* Payment Method
+* Monthly Charges
+* Total Charges
+* Churn Status
 
 Target Variable:
 
@@ -41,113 +42,118 @@ Target Variable:
 
 ---
 
-## Technologies Used
+## Tools and Technologies
 
 * Python
 * Pandas
 * NumPy
-* Seaborn
 * Matplotlib
-* Scikit-Learn
-* XGBoost
-* SHAP
-* Streamlit
+* Seaborn
+* JupyterLab
 
 ---
 
 ## Project Workflow
 
-1. Data Cleaning
-2. Exploratory Data Analysis
-3. Feature Engineering
-4. Data Preprocessing
-5. Model Training
-6. Hyperparameter Tuning
-7. Model Evaluation
-8. SHAP Explainability
-9. Streamlit Deployment
+### 1. Data Loading
+
+Loaded the customer churn dataset into a Pandas DataFrame.
+
+### 2. Data Cleaning
+
+* Checked missing values
+* Removed unnecessary columns
+* Converted data types where required
+
+### 3. Exploratory Data Analysis (EDA)
+
+Performed exploratory analysis to identify patterns and trends related to customer churn.
+
+### 4. Visualization
+
+Created visualizations to compare churn behavior across different customer segments.
+
+### 5. Insights and Recommendations
+
+Generated business recommendations based on analytical findings.
 
 ---
 
-## Exploratory Data Analysis
+## Key Visualizations
 
-Key findings:
+### Customer Churn Distribution
 
-* Month-to-month customers churn more frequently.
-* Customers with shorter tenure are more likely to churn.
-* Higher monthly charges are associated with higher churn rates.
+![Churn Distribution](images/churn_distribution.png)
 
-(Add screenshots here)
+### Contract Type vs Churn
 
----
+![Contract Type]()
 
-## Models Evaluated
+### Tenure vs Churn
 
-### Logistic Regression
+![Tenure]()
 
-Baseline interpretable model.
+### Monthly Charges vs Churn
 
-### Random Forest
+![Monthly Charges]()
 
-Improved performance through ensemble learning.
+### Correlation Heatmap
 
-### XGBoost
-
-Best performing model on the dataset.
+![Heatmap]()
 
 ---
 
-## Evaluation Metrics
+## Key Findings
 
-Metrics used:
+### 1. Contract Type Influences Churn
 
-* Accuracy
-* Precision
-* Recall
-* F1 Score
-* ROC-AUC
+Customers on month-to-month contracts exhibit significantly higher churn rates compared to customers with longer-term contracts.
 
-Example Results:
+### 2. Customer Tenure Matters
 
-| Model               | Accuracy | F1 Score | ROC-AUC |
-| ------------------- | -------- | -------- | ------- |
-| Logistic Regression | XX       | XX       | XX      |
-| Random Forest       | XX       | XX       | XX      |
-| XGBoost             | XX       | XX       | XX      |
+Customers with shorter tenure are more likely to churn, indicating that new customers require additional engagement and support.
 
----
+### 3. Monthly Charges Impact Retention
 
-## SHAP Explainability
+Customers with higher monthly charges tend to have higher churn rates.
 
-SHAP was used to understand the contribution of individual features to churn predictions.
+### 4. Payment Method Patterns
 
-Top churn drivers:
+Certain payment methods show elevated churn levels, suggesting possible customer experience concerns.
 
-* Contract Type
-* Tenure
-* Monthly Charges
-* Internet Service
+### 5. Long-Term Customers Are More Stable
 
-(Add SHAP screenshot)
+Customers with longer relationships with the company are less likely to leave.
 
 ---
 
-## Streamlit Application
+## Business Recommendations
 
-The deployed application allows users to:
+### Improve Customer Onboarding
 
-* Enter customer information
-* Receive churn probability predictions
-* Assess customer risk level
+Provide targeted onboarding programs for new customers during their first six months.
+
+### Promote Long-Term Contracts
+
+Offer incentives and discounts for customers willing to switch from month-to-month plans to annual contracts.
+
+### Review Pricing Strategy
+
+Analyze pricing structures for customers with higher monthly charges.
+
+### Strengthen Retention Campaigns
+
+Develop personalized retention campaigns for customer segments exhibiting higher churn rates.
+
+### Enhance Customer Experience
+
+Investigate service quality and payment processes that may contribute to churn.
 
 ---
 
-## Future Improvements
+## Conclusion
 
-* Deep learning models
-* Advanced feature engineering
-* Real-time prediction API
-* Cloud deployment
+The analysis identified contract type, tenure, monthly charges, and payment method as important factors associated with customer churn. These findings provide valuable insights that can help businesses design effective customer retention strategies and reduce customer attrition.
 
 ---
 
@@ -155,6 +161,6 @@ The deployed application allows users to:
 
 Swapnil
 
-LinkedIn:  LinkedIn URL
+GitHub: 
 
-GitHub:  GitHub URL
+LinkedIn: 
