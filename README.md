@@ -97,9 +97,13 @@ Generated business recommendations based on analytical findings.
 
 ![Monthly Charges](Monthly_charges_vs_churn.png)
 
+### Payment Method vs Churn
+
+![Payment Method](paymentmethod_vs_churn)
+
 ### Correlation Heatmap
 
-![Heatmap](correlation_heatmap.png)
+![Heatmap](correlationheatmap.png)
 
 ---
 
@@ -160,7 +164,5 @@ The analysis identified contract type, tenure, monthly charges, and payment meth
 ## Author
 
 Swapnil
-
-GitHub: 
 
 LinkedIn: 
