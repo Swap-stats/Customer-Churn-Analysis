@@ -83,23 +83,23 @@ Generated business recommendations based on analytical findings.
 
 ### Customer Churn Distribution
 
-![Churn Distribution](images/churn_distribution.png)
+![Churn Distribution](churn_distribution.png)
 
 ### Contract Type vs Churn
 
-![Contract Type]()
+![Contract Type](Contract_vs_churn.png)
 
 ### Tenure vs Churn
 
-![Tenure]()
+![Tenure](tenure_vs_churn.png)
 
 ### Monthly Charges vs Churn
 
-![Monthly Charges]()
+![Monthly Charges](Monthly_charges_vs_churn.png)
 
 ### Correlation Heatmap
 
-![Heatmap]()
+![Heatmap](correlation_heatmap.png)
 
 ---
 
