@@ -99,7 +99,7 @@ Generated business recommendations based on analytical findings.
 
 ### Payment Method vs Churn
 
-![Payment Method](paymentmethod_vs_churn)
+![Payment Method](paymentmethod_vs_churn.png)
 
 ### Correlation Heatmap
 
