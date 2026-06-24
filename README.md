@@ -97,7 +97,7 @@ Generated business recommendations based on analytical findings.
 
 ![Monthly Charges](Monthly_charges_vs_churn.png)
 
-### Payment Method vs Churn
+### Payment Method vs Count of churn
 
 ![Payment Method](paymentmethod_vs_churn.png)
 
